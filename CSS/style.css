@@ -21,12 +21,21 @@ body {
     width: 100vw;
     height: 100vh;
     margin: auto;
-
-
-
-    /* width: 100vw;
-    height: 100vh; */
 }
+
+
+body::-webkit-scrollbar {
+    width: 0.45em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: var(--main--text-color);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--main-h-color);
+  }
+
 
 .intro_section {
     display: flex;
